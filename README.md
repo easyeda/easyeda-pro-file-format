@@ -33,21 +33,23 @@ V3 uses a completely new source format, different from previous versions.
 >
 > Note: EasyEDA 3.0 completely reworked the project format, using a log-based concept for incremental storage of project changes. The design shifted from array-offset-based (in 2.0) to key-value style, making future format evolution, compatibility code development, and readability easier.
 
-V3 文件格式源码：
+V3 文件格式文档：
 
-- [https://github.com/easyeda/easyeda-api-skill/tree/main/format](https://github.com/easyeda/easyeda-api-skill/tree/main/format)
-
-V3 file format source:
-
-- [https://github.com/easyeda/easyeda-api-skill/tree/main/format](https://github.com/easyeda/easyeda-api-skill/tree/main/format)
-
-### V2.2（历史版本 / Historical Version）
+- [中文 / Chinese](cn/index.md)
+- [English / 英文](en/index.md)
 
 这不是最新的文件格式规范，但包含了绝大部分的格式细节。
 
 This is not the latest file format specification, but it contains most of the format details.
 
-- [lceda-pro-file-format-v2.2_2022.12.15.zip](https://image.lceda.cn/files/lceda-pro-file-format-v2.2_2022.12.15.zip)
+
+### V2.2（历史版本 / Historical Version）
+
+> "提示"：嘉立创EDA专用版从 V3 开始已经不再使用 V2 的文件格式，当仍支持 V2 格式的导入和导出（会有细节差异），建议开发者使用 V3 格式进行开发，如果需要查看 V2 格式，具体请查阅：[easyeda/easyeda-pro-file-format-v2](https://github.com/easyeda/easyeda-pro-file-format-v2)
+
+
+> "Note": Since version 3, the EasyEDA Pro dedicated version has stopped using the file format of version 2, but it still supports importing and exporting files in version 2 format (with some differences in details). Developers are recommended to use version 3 format for development. If you want to check V2 format, for specific details, please refer to: [easyeda/easyeda-pro-file-format-v2](https://github.com/easyeda/easyeda-pro-file-format-v2)
+
 
 ---
 
@@ -230,48 +232,46 @@ The record with `data` = `1` is retained.
 
 Describes data belonging to the project but not to a canvas.
 
-- [公共数据 / Common Data](https://github.com/easyeda/easyeda-api-skill/blob/main/format/project/common.md)
-- [基本信息 / Meta](https://github.com/easyeda/easyeda-api-skill/blob/main/format/project/meta.md)
-- [BLOB 真彩图 / True-color Image](https://github.com/easyeda/easyeda-api-skill/blob/main/format/project/blob.md)
-- [实例值属性覆盖 / Instance Value Override](https://github.com/easyeda/easyeda-api-skill/blob/main/format/project/instance.md)
-- [变体 / Variant](https://github.com/easyeda/easyeda-api-skill/blob/main/format/project/variant.md)
-- [元件分组 / Component Group](https://github.com/easyeda/easyeda-api-skill/blob/main/format/project/group.md)
+- [公共数据 / Common Data](cn/project/common.md) · [English](en/project/common.md)
+- [基本信息 / Meta](cn/project/meta.md) · [English](en/project/meta.md)
+- [BLOB 真彩图 / True-color Image](cn/project/blob.md) · [English](en/project/blob.md)
+- [实例值属性覆盖 / Instance Value Override](cn/project/instance.md) · [English](en/project/instance.md)
+- [变体 / Variant](cn/project/variant.md) · [English](en/project/variant.md)
+- [元件分组 / Component Group](cn/project/group.md) · [English](en/project/group.md)
 
 ### 原理图格式 / Schematic Format
 
-- [通用配置 / Common Configuration](https://github.com/easyeda/easyeda-api-skill/blob/main/format/schematic/common.md)
-- [结构元素 / Structure Elements](https://github.com/easyeda/easyeda-api-skill/blob/main/format/schematic/structure.md)
-- [属性 / Attributes](https://github.com/easyeda/easyeda-api-skill/blob/main/format/schematic/attr.md)
-- [导线 / Wires](https://github.com/easyeda/easyeda-api-skill/blob/main/format/schematic/wire.md)
-- [文本 / Text](https://github.com/easyeda/easyeda-api-skill/blob/main/format/schematic/text.md)
-- [形状 / Shapes](https://github.com/easyeda/easyeda-api-skill/blob/main/format/schematic/shape.md)
-- [引脚 / Pins](https://github.com/easyeda/easyeda-api-skill/blob/main/format/schematic/pin.md)
-- [元件 / Components](https://github.com/easyeda/easyeda-api-skill/blob/main/format/schematic/component.md)
-- [对象 / Objects](https://github.com/easyeda/easyeda-api-skill/blob/main/format/schematic/obj.md)
-- [表格 / Tables](https://github.com/easyeda/easyeda-api-skill/blob/main/format/schematic/table.md)
+- [通用配置 / Common Configuration](cn/schematic/common.md) · [English](en/schematic/common.md)
+- [结构元素 / Structure Elements](cn/schematic/structure.md) · [English](en/schematic/structure.md)
+- [属性 / Attributes](cn/schematic/attr.md) · [English](en/schematic/attr.md)
+- [导线 / Wires](cn/schematic/wire.md) · [English](en/schematic/wire.md)
+- [文本 / Text](cn/schematic/text.md) · [English](en/schematic/text.md)
+- [形状 / Shapes](cn/schematic/shape.md) · [English](en/schematic/shape.md)
+- [引脚 / Pins](cn/schematic/pin.md) · [English](en/schematic/pin.md)
+- [元件 / Components](cn/schematic/component.md) · [English](en/schematic/component.md)
+- [对象 / Objects](cn/schematic/obj.md) · [English](en/schematic/obj.md)
+- [表格 / Tables](cn/schematic/table.md) · [English](en/schematic/table.md)
 
 ### PCB 格式 / PCB Format
 
-- [通用格式 / Common Format](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/common.md)
-- [分区格式 / Partition Format](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/partition.md)
-- [基础图元 / Primitive Elements](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/primitive.md)
-- [焊盘与过孔 / Pads and Vias](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/pad_via.md)
-- [形状图元 / Shape Primitives](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/shape.md)
-- [二进制对象 / Binary Objects](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/obj.md)
-- [3D 外壳 / 3D Enclosure](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/3d.md)
-- [文字体系 / Text System](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/text.md)
-- [属性 / Attributes](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/attr.md)
-- [尺寸工具 / Dimension Tools](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/dimension.md)
-- [封装体系 / Component System](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/component.md)
-- [设计规则 / Design Rules](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/rule.md)
-- [拼版 / Panelization](https://github.com/easyeda/easyeda-api-skill/blob/main/format/pcb/panel.md)
+- [通用格式 / Common Format](cn/pcb/common.md) · [English](en/pcb/common.md)
+- [分区格式 / Partition Format](cn/pcb/partition.md) · [English](en/pcb/partition.md)
+- [基础图元 / Primitive Elements](cn/pcb/primitive.md) · [English](en/pcb/primitive.md)
+- [焊盘与过孔 / Pads and Vias](cn/pcb/pad_via.md) · [English](en/pcb/pad_via.md)
+- [形状图元 / Shape Primitives](cn/pcb/shape.md) · [English](en/pcb/shape.md)
+- [二进制对象 / Binary Objects](cn/pcb/obj.md) · [English](en/pcb/obj.md)
+- [3D 外壳 / 3D Enclosure](cn/pcb/3d.md) · [English](en/pcb/3d.md)
+- [文字体系 / Text System](cn/pcb/text.md) · [English](en/pcb/text.md)
+- [属性 / Attributes](cn/pcb/attr.md) · [English](en/pcb/attr.md)
+- [尺寸工具 / Dimension Tools](cn/pcb/dimension.md) · [English](en/pcb/dimension.md)
+- [封装体系 / Component System](cn/pcb/component.md) · [English](en/pcb/component.md)
+- [设计规则 / Design Rules](cn/pcb/rule.md) · [English](en/pcb/rule.md)
+- [拼版 / Panelization](cn/pcb/panel.md) · [English](en/pcb/panel.md)
 
 ---
 
 ## 相关链接 / Links
 
 - 完整格式文档 / Full format documentation：
-  - 中文在线文档 / Chinese online docs：[https://prodocs.lceda.cn/cn/format/index/](https://prodocs.lceda.cn/cn/format/index/)
-  - English online docs：[https://prodocs.easyeda.com/en/format/index/](https://prodocs.easyeda.com/en/format/index/)
-- 格式源码仓库 / Format source repository：
-  - [https://github.com/easyeda/easyeda-api-skill/tree/main/format](https://github.com/easyeda/easyeda-api-skill/tree/main/format)
+  - 中文 / Chinese：[cn/index.md](cn/index.md)
+  - English / 英文：[en/index.md](en/index.md)
