@@ -45,10 +45,10 @@ This is not the latest file format specification, but it contains most of the fo
 
 ### V2.2（历史版本 / Historical Version）
 
-> "提示"：嘉立创EDA专用版从 V3 开始已经不再使用 V2 的文件格式，当仍支持 V2 格式的导入和导出（会有细节差异），建议开发者使用 V3 格式进行开发，如果需要查看 V2 格式，具体请查阅：[easyeda/easyeda-pro-file-format-v2](https://github.com/easyeda/easyeda-pro-file-format-v2)
+> "提示"：嘉立创EDA专业版从 V3 开始已经不再使用 V2 的文件格式，当仍支持 V2 格式的导入和导出（会有细节差异），建议开发者使用 V3 格式进行开发，如果需要查看 V2 格式，具体请查阅：[easyeda/easyeda-pro-file-format-v2](https://github.com/easyeda/easyeda-pro-file-format-v2)
 
 
-> "Note": Since version 3, the EasyEDA Pro dedicated version has stopped using the file format of version 2, but it still supports importing and exporting files in version 2 format (with some differences in details). Developers are recommended to use version 3 format for development. If you want to check V2 format, for specific details, please refer to: [easyeda/easyeda-pro-file-format-v2](https://github.com/easyeda/easyeda-pro-file-format-v2)
+> "Note": Since version 3, the EasyEDA Pro version has stopped using the file format of version 2, but it still supports importing and exporting files in version 2 format (with some differences in details). Developers are recommended to use version 3 format for development. If you want to check V2 format, for specific details, please refer to: [easyeda/easyeda-pro-file-format-v2](https://github.com/easyeda/easyeda-pro-file-format-v2)
 
 
 ---
