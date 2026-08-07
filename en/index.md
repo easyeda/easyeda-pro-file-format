@@ -37,6 +37,15 @@ V3 file format (example files included in the zip):
 -   All properties described as `whether XXXX` are encoded with `1` for yes and `0` for no.
 -   Parts not explicitly described in these conventions (such as escaping) follow [RFC 7195 The JavaScript Object Notation (JSON) Data Interchange Format](https://tools.ietf.org/html/rfc7159).
 
+#### Type Categories
+
+- **Common Data**: Includes basic information, creation information, modification information, etc.
+- **Basic Information**: Includes metadata for project config, board, schematic, PCB, panel, symbol, footprint, device, etc.
+- **BLOB True-Color Image**: True-color image data format.
+- **Instance Attribute Override**: Instance attribute override format.
+- **Variant**: Variant data format.
+- **Component Grouping**: Component grouping data format.
+
 #### Document Header
 
 -   All data must begin with a document header to distinguish different document types.

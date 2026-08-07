@@ -1,5 +1,22 @@
 # Common Format
 
+This chapter details the format specification of the EasyEDA PCB file. PCB files mainly consist of the following parts:
+
+- **Common Format**: Document header, canvas, layer, physical layer, preferences, etc.
+- **Partition Format**: Partition definitions.
+- **Basic Primitives**: Nets, primitive configurations, groups, silkscreen configurations, associations, attributes, etc.
+- **Pads and Vias**: Pads and vias.
+- **Shape Primitives**: Lines, arcs, polygon systems, polylines, fills, regions, copper pours, images, teardrops, etc.
+- **Binary Objects**: Embedded objects.
+- **3D Shell**: Shells, creases, entities, bosses.
+- **Text System**: Text.
+- **Attributes**: Attributes.
+- **Dimension Tools**: Dimension annotations.
+- **Footprint System**: Component instances.
+- **Panelization**: Panelization parameters.
+- **Design Rules**: Rule templates, rules.
+
+
 ## Document Header
 
 ```json

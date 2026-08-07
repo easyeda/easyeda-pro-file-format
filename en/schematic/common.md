@@ -1,5 +1,19 @@
 # Common Format
 
+This chapter details the format specification of the EasyEDA schematic file. Schematic files mainly consist of the following parts:
+
+- **Common Configuration**: Document header and canvas configuration.
+- **Structural Elements**: PART sub-libraries and GROUP combinations.
+- **Attributes**: Primitive attribute definitions.
+- **Wires**: Wires, buses, and bus entries.
+- **Text**: Text elements.
+- **Shapes**: Rectangles, polygons, circles, arcs, Bezier curves, ellipses.
+- **Pins**: Pin definitions.
+- **Components**: Schematic component instances.
+- **Objects**: Binary objects (images, etc.).
+- **Tables**: Tables and cells.
+
+
 ## Document Header
 
 ```json
