@@ -6,6 +6,9 @@
 
 The EasyEDA Pro file format is used to describe design data such as projects, schematics, PCBs, footprints, and symbols. It is organized as a log document in which each line consists of outer consistency metadata and inner atomic data, supporting incremental storage, eventual consistency, and version evolution.
 
+> 提示：最新版本的嘉立创EDA专业版文档格式说明请参考：https://github.com/easyeda/easyeda-pro-format-skill
+> Notice: The latest file format of EasyEDA Pro please reference at https://github.com/easyeda/easyeda-pro-format-skill
+
 ---
 
 ## 目录 / Table of Contents
